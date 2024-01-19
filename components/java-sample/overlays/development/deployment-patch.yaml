@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/mdsaud-tenant/java-sample/java-sample@sha256:e63678e0e087e68a6695f93d809c5be96dc6d59d12d3678b1bbf3a654356fe96
+      - image: quay.io/redhat-user-workloads/mdsaud-tenant/java-sample/java-sample@sha256:2675699a73c08498aafb7bf37f1af876bacb0a1ecdd95a814757bae9053ab289
         name: my-java-quarkus
         resources: {}
 status: {}
