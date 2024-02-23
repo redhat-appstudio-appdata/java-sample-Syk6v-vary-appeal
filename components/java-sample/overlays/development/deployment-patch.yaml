@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: java-sample
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -11,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/mdsaud-tenant/java-sample/java-sample@sha256:2675699a73c08498aafb7bf37f1af876bacb0a1ecdd95a814757bae9053ab289
+      - image: quay.io/redhat-user-workloads/mdsaud-tenant/java-sample/java-sample@sha256:3909349ef2c871264c13b06366de0e1feec466d09c19276a66ce088751bfc77b
         name: my-java-quarkus
         resources: {}
 status: {}

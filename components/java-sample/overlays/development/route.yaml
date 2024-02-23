@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: java-sample
     app.kubernetes.io/part-of: java-sample
-  name: java-samplezyws
+  name: java-sampleny5r
 spec:
   port:
     targetPort: 8081
